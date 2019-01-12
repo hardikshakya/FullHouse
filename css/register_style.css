@@ -1,0 +1,94 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(../images/s1.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.regBox
+{ 
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 680px;
+	padding: 50px 30px;
+	box-sizing: border-box;
+	height: 650px;
+	background: rgba(0,0,0,.6);
+}
+.user 
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-60px);
+    left: calc(50% - 50px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.regBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.regBox input
+{
+	
+	margin-bottom: 20px;
+}
+.regBox input[type="text"],
+.regBox input[type="Password"]
+{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 40px;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.regBox input[type="submit"]
+{
+	width: 70%;
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-left: 100px;
+}
+.regBox input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.regBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #efed40;
+}
